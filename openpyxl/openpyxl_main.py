@@ -17,11 +17,6 @@ sheet.append([1, 2, 3, 4, 5])
 # 액셀명 파일 저장 ?if문으로 파일명 체크할수 없을까? 할수 있을거 같은데 알고리즘 안떠오른다.
 wb.save('pyxlmain.xlsx')
 
-
-
-
-
-
 # ws= wb.active
 # ws.title='openpyxl_main'
 
