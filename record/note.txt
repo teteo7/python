@@ -1,9 +1,23 @@
-1. 사용한 library
-    openpyxl, selenium, PyQt5, Qt Designer
+1. 정보
+    library: openpyxl, selenium, PyQt5, Qt Designer
+    테스트 파일에서 진행후 python파일로 이동해서 모듈 사용
 
-2.파일명숫자로 엑셀 파일을 만드는데 숫자부분을 반복문으로 확인해서
+2. 파일명숫자로 엑셀 파일을 만드는데 숫자부분을 반복문으로 확인해서
     만들어주는 알고리즘을 만들고 싶은데 어떻해야 하지
-    openpyxl_main.py 18번줄- filename_check.py에서 작업중
+    openpyxl_main.py 18번줄- filename_check.py에서 작업중 ✓
+
+3. 다른 파일에 있는 .py파일 어떻게 가져오지?
+    __init__.py가 파이썬 패키지로 인식할 수 있도록 환경변수를 설정해준다.
+    그래서 import 시에 찾아들어갈 수 있다.
+
+    from import할떄 인터프리터 실행한 곳을 기준으로 패스작성 해야 한다
+        → __init__.py로 환경변수 설정해줄 필요 없는 방법인
+        같은 파일에 .py파일을 두는 방법으로 일단 진행중 ✓
+
+
+
+
+
 
 
 
