@@ -24,11 +24,11 @@ sheet= wb.active
 print(b)
 sheet['C5'] = b
 
-output_path= fcheck()
-a= str(output_path)
-print(type(a))
-print("메인출력: ")
-print(a)
-wb.save(a)
+# output_path= fcheck()
+# a= str(output_path)
+# print(type(a))
+# print("메인출력: ")
+# print(a)
+wb.save(fcheck())
 
 driver.close()
