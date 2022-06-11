@@ -1,0 +1,4 @@
+셀레니움 프롬프트창 없애기
+    https://m.blog.naver.com/kibani/221921810439
+
+    https://codechacha.com/ko/python-selenium-remove-chromedriver-console-with-pyinstall/
